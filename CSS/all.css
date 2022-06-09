@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Tiro+Tamil&display=swap');
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Tiro Tamil', serif;
+    color: rgb(215, 214, 214);
+}
+/* END ALL */
+
+/*body*/
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+}
+/*header*/
+.head{
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: rgba(56, 56, 56, 0.83);
+}  
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}   .logo a{
+        width: 88px;
+        height: 33px;
+        float: left;
+    }   .logo a img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+.links-1{
+        display: flex;
+    }   .links-1 ul a{
+            font-size: 15px;
+            font-family: 'Heebo', sans-serif;
+            letter-spacing: 2px;
+            margin-left: 32px;
+            cursor: pointer;
+            color: white;
+        }   .links-1 a:hover{
+                padding: 10px 15px;
+                background-color: #fff;
+                color: black;
+                Border-radius: 18px;
+            }
+.logo{
+    opacity: 0.7;
+}
+.logo:hover{
+    opacity: 1;
+    transition: 0.25s;
+}
+/* END Header */
+
+.background{
+    margin-top: 5%;
+    display: flex;
+}
+/*END BODY*/
+
+
+/*header*/
+
+/*blog*/
+.blog{
+    background-color: rgba(56, 56, 56, 0.83);
+    width: 1000px;
+    max-height: 5000px;
+    margin-left: 5%;
+    margin-right: 1%;
+    border-radius: 12px;
+}
+
+/*SlideShow*/
+.content {
+    height: 600px;
+    width: 1000px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.navigation{
+    margin-top: 20px ;
+    margin-left: 25% ;
+    transform: translate(-25%);
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bar{
+    width: 70px;
+    height: 12px;
+    border: 2px solid #2f00ff;
+    margin: 6px;
+    border-radius: 12px;
+    transition: 0.6s;
+
+}   .bar:hover{
+        background-color: #fff;
+    }
+
+.RB{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 400% ;
+    height: 100%;
+
+}   .slide{
+        width: 25%;
+        transition: 0.6s;
+    }   .slide img{
+            width: 100%;
+            height: 50%;
+            cursor: pointer;
+        }   
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+
+}   #slide2:checked ~ .s1 {
+        margin-left: -25%;
+
+    }   #slide3:checked ~ .s1 {
+            margin-left: -50%;
+
+        }   #slide4:checked ~ .s1{
+                margin-left: -75%;
+
+            }
+
+
+.news {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+}   .news h5{
+        font-family: 'Bebas Neue', cursive;
+        margin-bottom: 20px;
+
+    }   .news a{
+            font-size: 60px;
+            font-family: 'Bebas Neue', cursive;
+            margin-top: 20px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            line-height: 100%;
+
+        }   .news a:hover{
+                opacity: 0.7;
+                transition: 0.25s;
+                color: #3352dd;
+            }
+/*END SLIDESHOW*/
+.content-blog{
+    float: left;
+    width: 100%;
+    padding: 0.5em;
+    display: flex;
+
+} .content-blog .article {
+    width: 100%;
+    padding: 0.5em;
+    margin: 10px;
+
+    }   .content-blog .article img{
+        width: 100%;
+        border-top-left-radius: 12px ;
+        border-top-right-radius: 12px ;
+    }
+
+.article img, .article h1{
+    cursor: pointer;
+    transition: 0.25s;
+
+}   .article img:hover{
+        opacity: 0.7;
+
+    }   .article h1:hover{
+            opacity: 0.7;
+            color:#3352dd;
+        }
+
+/*NEWS PAGES*/
+.way{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.7);
+
+}   .way h3{
+        color: #3352dd;
+        cursor: pointer;
+        padding: 0.5em;
+        margin: 20px ;
+        transition: 0.25s;
+
+    }   .way h3:hover{
+            opacity: 0.7;
+
+        }
+
+.title{
+    padding: 1em;
+    margin-left: 20px;
+}
+
+.text{
+    padding: 1em;
+    margin: 20px;
+}   .text p{
+        margin: 20px 0;
+        font-size: 22px;
+
+    }
+
+.image{
+    text-align: center;
+    padding: 1em;
+    margin: 20px;
+
+}   .image img{
+        text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 80%;
+            max-height: 80%;
+
+    }
+
+.image-2{
+    text-align: center;
+
+}   .image-2 img{
+        text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            max-height: 100%;
+
+    }
+
+.video{
+    text-align: center;
+}   iframe{
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+.staff{
+    margin-left:20px ;
+    margin-bottom: 50px;
+    Line-height: 25px;
+   
+}   .staff p {
+        font-size: 18px;
+
+    }
+.font{
+    color: #00b3ff;
+    transition: 0.25s;
+
+}   .font:hover{
+        color: rgb(255, 255, 255);
+}
+/*END NEWS PAGES*/
+/* END Blog */
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 11px;
+}   ::-webkit-scrollbar-thumb{  
+        background: linear-gradient(transparent, #2f00ff);
+        border-radius: 6px;
+    }   ::-webkit-scrollbar-thumb:hover{
+            background: linear-gradient(transparent, #04016d );
+            border-radius: 6px;
+        }   ::-webkit-sc{
+                display: none;
+                height: 0;
+            }
+/*END scrollbar*/
+
+
+/*post*/
+#post{
+    background-color: rgba(56, 56, 56, 0.83);
+    width: 350px;
+    height: 1250px;
+    border-radius: 12px;
+}
+
+.redes{
+    width: 350px;
+    height: 80px;
+    background: #415aca;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}   .medias-socias{
+        padding-top: 20px;
+
+    }   .redes .medias-socias a{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+            margin: 0 10px 10px 0;
+            text-decoration: none;
+            border-radius: 50%;
+            color: white;
+            border: 1px solid white;
+            transition: all 0.5s ease;
+
+        }   .redes .medias-socias a i{
+                font-size: 20px;
+
+            }   .redes .medias-socias a:hover{
+                    color: #415aca;
+                    background-color: white;
+                }
+.Sobre{
+    padding: 0.7em;
+    margin-top: 30%;
+    margin-bottom: 30%;
+      
+}   .Sobre h1{
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        margin: 20px;
+
+    }
+
+.Lat-New{
+    padding: 0.7em;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+
+}
+/* END post */
+
+
+/* footer */
+footer{
+    background-color: rgba(56, 56, 56, 0.83);
+    padding: 10px 0;
+    margin-top: 30px;        
+}
+
+.container-footer{
+    max-width: 100vw;
+    padding: 0 10%;
+    margin: auto;
+}
+
+.row-footer{
+        display: flex;
+        flex-wrap: wrap;
+}
+        
+.footer-col{
+    width: 50%;
+    padding: 0 10%;
+}   .footer-col h4{
+        font-size: 20 px;
+        margin-top: 35px;
+        color: white;
+        font-weight: 200;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 15px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+
+}   .footer-col .medias-socias a i{
+        font-size: 20px;
+
+    }   .footer-col .medias-socias a:hover{
+            color: #415aca;
+            background-color: white;
+        }
+/* END footer */
+@media screen and (max-width: 1000px) {
+        .head{
+            height: 8vh;
+        }
+        #post { 
+            display: none;
+        }
+        .content{
+            display: none;
+        }
+        .footer-col{
+            font-size: 12px;
+            padding: 0;
+        }
+        .content-blog{
+            display: inline-block;
+        }
+    }
