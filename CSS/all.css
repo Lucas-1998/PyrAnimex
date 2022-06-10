@@ -412,7 +412,7 @@ footer{
 /* END footer */
 @media screen and (max-width: 1000px) {
         .head{
-            height: 8vh;
+            height: 6vh;
         }
         .blog{
             margin:0;
@@ -422,11 +422,14 @@ footer{
             display: none;
         }
         .content{
-            width: 100%;
+            display: none;
         }
         .footer-col{
             font-size: 12px;
             padding: 0;
+        }
+        .blog{
+            max-width: 100%;
         }
         
         .content-blog{
