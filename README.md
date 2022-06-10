@@ -3,6 +3,7 @@ PROJETO E MODELAGEM DE SISTEMAS DE SOFTWARE
 
 Lucas Luiz de Souza Pereira
 
-HOSPEDAGEM
-https://lucas-1998.github.io/PyrAnimex/index.html
-https://pryanimex.netlify.app
+HOSPEDAGENS
+GITHUb: https://lucas-1998.github.io/PyrAnimex/index.html
+
+NETFILY: https://pryanimex.netlify.app
