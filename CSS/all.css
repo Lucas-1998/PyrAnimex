@@ -32,8 +32,8 @@ body{
     letter-spacing: 4px;
     opacity: 0.7;
 }   .logo a{
-        max-width: 88px;
-        max-height: 33px;
+        width: 88px;
+        height: 33px;
         float: left;
     }   .logo a img{
             width: 100%;
