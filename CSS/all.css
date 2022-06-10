@@ -412,7 +412,7 @@ footer{
 /* END footer */
 @media screen and (max-width: 1000px) {
         .head{
-            height: 6vh;
+            height: 8vh;
         }
         .blog{
             margin:0;
